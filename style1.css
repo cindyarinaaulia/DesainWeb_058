@@ -1,0 +1,88 @@
+body {
+    font : 16px arial;
+    background-color: lightblue;
+    
+}
+
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+}
+
+.header .judul {
+    font-size: 60px;
+    font-weight: bold;
+    background-image: url(23669428_6850538.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: 0px - 50px;
+}
+
+.header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu{
+    background-color:aqua;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 1.8);
+}
+
+.header a{
+    text-decoration: none;
+    color: darkcyan;
+    padding: 5px;
+}
+
+.header a:link, a:visited{
+    display: inline-block;
+    width: 100px;
+}
+
+.header a:hover{
+    background-color:darkgrey;
+    color: darkmagenta;
+}
+
+.gambar {
+    background-image: url(scya.jpg);
+    height: 250px;
+    background-repeat: cover;
+    background-position: 0px - 80px;
+    border-top: 5px solid cadetblue;
+    box-shadow: 5px solid blanchedalmond;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.content .penulis a{
+     text-align: none;
+     color: darkcyan;
+}
+
+.content .penulis{
+    margin-top: -20px;
+}
+
+.footer {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer  .copyright{
+    color: black;
+}

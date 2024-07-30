@@ -1,0 +1,18 @@
+.headlines, .sublines, .infotext {
+    font-family: Arial;
+    color: blue;
+    background: yellow;
+    font-weight: bold;
+}
+
+.headlines {
+    font-size: 15pt;
+}
+
+.sublines {
+    font-size: 14pt;
+}
+
+.infotext {
+    font-size: 10pt;
+}
